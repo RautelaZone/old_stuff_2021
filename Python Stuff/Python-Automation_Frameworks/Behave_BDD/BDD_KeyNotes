@@ -1,0 +1,17 @@
+1) Like Cucumber in Java same Behave in Python to support BDD frameworkd
+2) Background is a gehrkin keyword which is used to store those steps which are common to
+each Scenario and needs to be executed before.
+3) Difference between Scenario and Scenrio Oultine is SO is used for data driven testing to pass multiple parameters.
+Different data is given using Examples keyword
+4) Command to create Report:
+behave -f allure_behave.formatter:AllureFormatter -o folderpath/ Behave_BDD/feature
+For ex:
+behave -f allure_behave.formatter:AllureFormatter -o Behave_BDD/reports/ Behave_BDD/feature
+
+Note: It will create a folder with name 'reports' and It will generate reports in JSON format
+so need to change it so need to run following command.
+allure serve folderpath
+Note: This will create a html file in Temp folder so need to open index.html file under temp folder
+For ex:
+allure serve Behave_BDD/reports/
+
