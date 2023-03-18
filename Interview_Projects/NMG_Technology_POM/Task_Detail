@@ -1,0 +1,9 @@
+Automation Task:
+1) Create Page Object Model
+2) Login to "https://cs.staging.competiscan.com/" with given credentials
+3) At landing page, select option 'Unused' from drop-down, click on the check box of the same row,
+click on the 'Update' button, click on 'OK' button of pop-up and then refresh the page.
+4) Assert the selected option.
+5) Now, select blank option from drop-down, click on the check box of the same row,
+click on the 'Update' button, click on 'OK' button of pop-up and then refresh the page.
+6) Assert the selected blank option.
